@@ -1,4 +1,16 @@
 .pic
 {
     margin-left:45%;
+    margin-top: 5%;
+}
+.head
+{
+ margin-left:10%;
+
+}
+.main{
+    background-color: blueviolet;
+}
+.hello{
+    padding-bottom: 30%; 
 }
