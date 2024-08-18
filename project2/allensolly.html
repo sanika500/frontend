@@ -9,12 +9,14 @@
 
  
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="STYLES.css">
 </head>
 <body>
     <div class="container mt-5">
     <div class="navbar navbar-expand-lg">
     <div class="container fluid">
-    <a class="navbar-brand" href="#"><img src="allensollylogo.png" height=30% width=30%></a> 
+    <a class="navbar-brand" href="#"><img src="/project2/images/allensollylogo.png" height=30% width=30%></a> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,78 +39,235 @@
         <a class="nav-link five" href="#">
       SALES
         </a>
+        <i class="bi bi-search"></i>
       </ul>
 
   </div>
     </div>
     </div>
     </div>
+<div class="opt">
+  <select name="all discount" id="all discount">
+    <option value="">All Discounts</option>
+</select>
+<select name="gender" id="gender" >
+    <option value="">Gender</option>
+</select>
+<select name="trouser" id="trouser">
+    <option value="">Trouser Front</option>
+</select>
+<select name="discount" id="discount">
+    <option value="">Discount</option>
+</select>
+<select name="category" id="category" >
+  <option value="">category</option>
+</select>
+<select name="brand" id="brand">
+  <option value="">Brand</option>
+</select>
+<select name="Occasion" id="Occasion">
+  <option value="">Occasion</option>
+</select>
+</div>
 
 
-    <div class="row">
-      <form action="">  
+<div class="select">
+  <select name="sizes" id="sizes">
+    <option value="">Sizes</option>
+</select>
+<select name="Price" id="price" >
+    <option value="">Price</option>
+</select>
+<select name="colour" id="colour">
+    <option value="">Colour</option>
+</select>
+<select name="Fit" id="Fit">
+    <option value="">Fit</option>
+</select>
+<select name="Sleeves" id="Sleeves" >
+  <option value="">Sleeves</option>
+</select>
+<select name="Pattern" id="Pattern">
+  <option value="">Pattern</option>
+</select>
+<select name="Neck" id="Neck">
+  <option value="">Neck</option>
+</select>
+<select name="collar" id="collar">
+  <option value="">collar</option>
+</select>
+<select name="Cuffs" id="Cuffs">
+  <option value="">Cuffs</option>
+</select>
+</div>
+
+<div class="type">
+  <select name="Front Opening" id="Front Opening" >
+    <option value="">Front Opening</option>
+</select>
+<select name="Suit Front" id="Suit Front">
+    <option value="">Suit Front</option>
+</select>
+<select name="Hood" id="Hood">
+    <option value="">Hood</option>
+</select>
+<select name="Bag Type" id="Bag Type" >
+  <option value="">Bag Type</option>
+</select>
+<select name="Shoe Type" id="Shoe Type" >
+  <option value="">Shoe Type</option>
+</select>
+</div>
+
+
+
+    <div class="CATEGOR">
         <table>
-          <td><label for="CATEGORY">SELECT YOUR CATEGORY</label>
+          <td><label for="CATEGORY" class="asdf">SELECT YOUR CATEGORY</label>
       </td>
 
-      
+      <div class="hell">
       <td><label for="casual"></label></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Casual Trousers"></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Shirts"></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Formal Shirts"></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Tops"></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Casual Shirts"></td>
-      <td><input type="text" id="casual" name="casual" placeholder="Polo T-shirts"></td>
-
+      <td><input type="text" id="casual" name="casual" placeholder="Casual Trousers" disabled></td>
+      <td><input type="text" id="casual" name="casual" placeholder="Shirts" disabled></td>
+      <td><input type="text" id="casual" name="casual" placeholder="Formal Shirts" disabled></td>
+      <td><input type="text" id="casual" name="casual" placeholder="Tops" disabled></td>
+      <td><input type="text" id="casual" name="casual" placeholder="Casual Shirts" disabled></td>
+      <td><input type="text" id="casual" name="casual" placeholder="Polo T-shirts"disabled></td>
+        </div>
       </tr>
         </table>
-      </form>
-
-      <main class="container my-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-                <img src="product1.jpeg"height=60% width=70%  alt="Product Image">
-                <div class="card-body">
-                  <h6 class="card-title">Men Blue Slim Fit Check Full Sleeves Formal Shirts</h6>
-                  <p class="card-text">$1499 40%off</p>
-
-                  <tr>
-                    <td><label for="dress"></label></td>
-                    <td><input type="radio" name="colour">Blue</td>
-                  </tr>
-
-       
-        <div class="row">
-          <div class="card">
-            <img src="product2.jpeg"height=60% width=75%  alt="Product Image">
-            <div class="card-body">
-                  <h6 class="card-title">Men Blue Slim Fit Check Half Sleeves Formal Shirts</h6>
-                  <p class="card-text">$1499 40%off</p>
-                  <tr>
-                    <td><label for="dress"></label></td>
-                    <td><input type="radio" name="colour">Blue</td>
-                  </tr>
-                </div>
-
-                <div class="row">
-                  <div class="card">
-                    <img src="product3.jpeg"height=60% width=75%  alt="Product Image">
-                    <div class="card-body">
-                          <h6 class="card-title">Men Blue Slim Fit Check Full Sleeves Formal Shirts</h6>
-                          <p class="card-text">$1499 40%off</p>
-                          <tr>
-                            <td><label for="dress"></label></td>
-                            <td><input type="radio" name="colour">Blue</td>
-                          </tr>
-                        </div>
-        
-
-
-        </div>          
-
-                  
+     </div>
 
     
+      <div class="MAIN">
+        <div class="pros">
+          <img src="/project2/images/product1.jpeg"alt="img1">
+          <h6>Men Blue Slim Fit Check Full Sleeves Formal Shirts</h6>
+          <h6> MRP <del> ₹2,499</del> ₹1,499 40% OFF</h6>
+          <td><input type="radio" name="colour">Blue</td>
+
+        </div>
+       <div>
+          <img src="/project2/images/product2.jpeg"alt="img2">
+          <h6>Women Black Regular Fit Blazer</h6>
+          <h6> MRP <del> ₹4,999</del> ₹3,499 30% OFF</h6>
+          <td><input type="radio" name="colour">Black</td>
+        </div>
+        <div class="pros">
+          <img src="/project2/images/product3.jpeg" alt="img3">
+          <h6>Men Blue Custom Fit Check Full Sleeves Casual Shirts</h6>
+          <h6> MRP <del> ₹2,299</del> ₹1,379 40% OFF</h6>
+          <button class="btn btn-custom" data-colour="blue">Blue</button>
+        </div>
+        <div class="pros">
+        
+          <img src="/project2/images/product4.jpeg" alt="image4" height="585px" width="340px">
+          <h6>Men Grey Ultra Slim Fit Textured Casual Blazer</h6>
+          <h6> MRP <S> ₹6,999</S> ₹4,199 40% OFF</h6>
+        </div>
+      </div>        
+   
+      <div class="second">
+        <div>
+        <img src="/project2/images/product5.jpeg" height="585px" width=340px alt="img5">
+        <h6>Women Blue Solid Formal Top</h6>
+        <p> MRP <del> ₹2,299</del> ₹1,379 40% OFF</p>
+        
+        </div>
+        <div>
+          <img src="/project2/images/product6.jpeg" alt="img6">
+          <h6>Men Blue Slim Fit Check Full Sleeves Casual Shirts</h6>
+          <P>MRP <del>₹ 2,499.00 </del> ₹ 1,499 40% OFF</P>
+        </div>
+        <div>
+          <img src="/project2/images/product7.jpeg" alt="img7">
+          <h6>Women Brown Print Long Sleeves Shirt</h6>
+          <p>MRP <del>₹ 2,299.00</del> ₹ 1,379 40% OFF</p>
+        </div>
+        <div>
+          <img src="/project2/images/product8.jpeg" alt="img8">
+          <h6>Men Blue Slim Fit Textured Formal Blazer</h6>
+          <p> MRP <del> ₹6,999</del>  ₹ 4,199  40% OFF</p>
+          <td><input type="radio" name="colour">Blue</td>
+        </div>
+      </div>
+      <div class="img">
+        <div>
+        <img src="/project2/images/product9.jpeg" alt="img9">
+        <h6>Men Black Regular Fit Solid Casual Trousers</h6>
+        <p>  MRP <del> ₹2,499</del>  ₹ 1499  40% OFF</p>  
+       </div>
+         <div>
+          <img src="/project2/images/product10.jpeg" alt="img10">
+          <h6>Women Pink Regular Fit Solid Formal Trousers</h6>
+        <p>  MRP <del> ₹2,700</del>  ₹ 1679  40% OFF</p>   
+         </div>  
+         <div>
+          <img src="/project2/images/product11.jpeg" alt="img11">
+          <h6>Women Navy Regular Fit Mid Wash Jeans</h6>
+          <p>  MRP <del> ₹3,299</del>  ₹ 1,979 40% OFF</p>  
+         </div>  
+         <div>
+          <img src="/project2/images/product12.jpeg" height="585" width="340"alt="img12">
+          <div>Men Navy Regular Fit Solid Casual Trousers</div>
+          <p>  MRP <del> ₹2,499</del>  ₹ 1499  40% OFF</p>  
+         </div>
+        </div>     
+
+<footer class="bg-light text-dark ">
+  
+
+<div class="text-center mt-4">
+  <img src="/project2/images/allensollylogo.png" alt="Allen Solly Logo" height="50">
+
+</div>        
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5>NEED HELP?</h5>
+                <p>
+                    <h6>Order Status<h6>
+                      <h6>Delivery</h6>
+                      <h6>Returns</h6>
+                      <h6>FAQs</h6>
+                      <h6>Shipping Policy</h6>
+                      <h6>Return and Cancellation Policy</h6>
+                      <h6>Contact Us<h6>
+              </p>
+            </div>
+
+            
+            <div class="col-md-4 mb-3">
+                
+                 <h5> ABOUT US</h5>
+                  <p>
+                  <h6> Aditya Birla Fashion & Retail Ltd </h6>
+                  <h6>Find a Store </h6>
+                  <h6>Allen Solly Blogs </h6>
+                  <h6>Terms and conditions For Membership Program </h6>
+                 <h6> Bulk Order </h6>
+
+                </p>
+            </div>
+
+            
+            <div class="col-md-4 mb-3">
+                <h5>Follow Us</h5>
+                
+               <a href="https://www.facebook.com/allensolly/">facebook</a>
+               <div>
+               <a href="https://www.instagram.com/allensollyindia/">instagram</a>
+              </div>
+              <div>
+                <a href="https://www.youtube.com/@allensollyindia">youtube</a>
+              </div>
+            </div>
+        </div>
+</footer>
+
+
 </body>
 </html>

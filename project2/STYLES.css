@@ -1,0 +1,45 @@
+.MAIN{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+
+.CATEGOR input{
+     width: 150px;
+     margin-left: 40px;
+}
+.hell{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+.opt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ .second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+ }
+ .img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ 
